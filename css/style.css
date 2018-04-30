@@ -1,0 +1,143 @@
+@import url(style.css);
+@import url(fontawesome-all.min.css);
+@font-face {
+  font-family: 'Arvo', serif; }
+@font-face {
+  font-family: 'Signika', sans-serif; }
+.container {
+  max-width: 960px;
+  width: 100%;
+  margin: auto; }
+
+body {
+  margin: 0;
+  padding: 0; }
+  body header {
+    border-bottom: 1px solid #259786;
+    background-color: white;
+    padding: 9px 1px 20px 0; }
+    body header .logo {
+      font-size: 25px;
+      color: black;
+      font-family: "Arvo", serif;
+      font-weight: 700;
+      padding-top: 23px; }
+    body header .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-between; }
+    body header .right {
+      display: block;
+      font-size: 16px;
+      font-family: "Signika", sans-serif;
+      color: #259786;
+      font-weight: 700; }
+      body header .right .link {
+        display: block;
+        padding-bottom: 30px;
+        text-align: right; }
+        body header .right .link .support {
+          margin-right: 28px; }
+      body header .right .qwe {
+        display: block; }
+      body header .right a {
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        color: #259786; }
+      body header .right span {
+        display: inline-block; }
+        body header .right span .normal {
+          font-weight: 400; }
+  body section.block_1 {
+    background: #e69a68;
+    width: 100%;
+    padding: 26px 0 34px 0; }
+    body section.block_1 span {
+      display: inline-block;
+      color: white;
+      font-size: 33px;
+      font-family: "Signika", sans-serif;
+      font-weight: 700;
+      text-align: right;
+      margin-left: 100px; }
+    body section.block_1 a {
+      display: inline-block;
+      margin-left: 45px;
+      padding: 23px;
+      background: #d66114;
+      width: 142px;
+      height: 124px;
+      border-radius: 15px;
+      text-decoration: none;
+      text-align: center;
+      color: white;
+      font-family: "Signika", sans-serif;
+      font-weight: 700;
+      font-size: 45px; }
+  body section.block_2 {
+    background: #d68854;
+    width: 100%;
+    padding: 23px 0 21px 0; }
+    body section.block_2 .device {
+      display: block;
+      text-align: center; }
+      body section.block_2 .device img {
+        margin-right: 25px; }
+    body section.block_2 span {
+      display: block;
+      color: white;
+      font-size: 20px;
+      font-family: "Signika", sans-serif;
+      font-weight: 700;
+      text-align: center;
+      text-transform: uppercase;
+      margin-top: 10px; }
+  body section.block_3 {
+    background: white;
+    width: 100%;
+    padding: 37px 0; }
+    body section.block_3 h2 {
+      font-family: "Signika", sans-serif;
+      font-weight: 700;
+      font-size: 30px;
+      color: #236462;
+      text-transform: uppercase; }
+    body section.block_3 hr {
+      display: inline-block;
+      height: 4px;
+      width: 226px;
+      background: #259786;
+      text-align: left;
+      border: none; }
+    body section.block_3 .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-between; }
+      body section.block_3 .flex-container .flex-element {
+        width: 450px;
+        font-family: "Signika", sans-serif;
+        color: #259786;
+        font-size: 14px;
+        line-height: 1.5;
+        padding-right: 30px; }
+        body section.block_3 .flex-container .flex-element h3 {
+          font-weight: 700;
+          font-size: 16px; }
+  body footer {
+    background: #259786;
+    width: 100%;
+    padding: 48px 0 43px 0;
+    color: white;
+    font-family: "Signika", sans-serif;
+    font-size: 12px; }
+    body footer .left {
+      display: block;
+      text-align: left; }
+    body footer .right-2 {
+      display: block;
+      text-align: right; }
+
+/*# sourceMappingURL=style.css.map */
